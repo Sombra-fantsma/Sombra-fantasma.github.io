@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Educativa</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts para tipografía -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome para iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Menú principal -->
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="#inicio">Educativa</a>
+            </div>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#recursos">Recursos</a></li>
+                <li><a href="#comunidad">Comunidad</a></li>
+                <li><a href="#desarrollo">Desarrollo</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#login" class="login-button">Iniciar Sesión</a></li>
+            </ul>
+    </header>
+
+    <!-- Sección Inicio -->
+    <section id="inicio">
+        <div class="banner">
+    <div class="banner-images">
+        <img src="img/img11.png" alt="Imagen 1">
+        <img src="img/img22.png" alt="Imagen 2">
+    </div>
+    <div class="banner-content">
+        <h1>Apoyando a los educadores a mejorar el aprendizaje</h1>
+        <p>Explora nuestros recursos o regístrate para obtener acceso a más herramientas educativas.</p>
+        <a href="#" class="cta-button">Llamado a la acción</a>
+    </div>
+</div>
+        <div class="destacados">
+            <h2>Recursos Destacados</h2>
+            <div class="cards">
+                <div class="card">
+                    <i class="fas fa-calculator fa-3x"></i>
+                    <h3>Matemáticas</h3>
+                    <p>Recursos interactivos para enseñar matemáticas de manera efectiva.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-flask fa-3x"></i>
+                    <h3>Ciencias</h3>
+                    <p>Material didáctico para fomentar la curiosidad científica.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-book-open fa-3x"></i>
+                    <h3>Comunicación</h3>
+                    <p>Herramientas para mejorar las habilidades de comunicación en el aula.</p>
+                </div>
+            </div>
+        </div>
+        <div class="testimonios">
+            <h2>Testimonios</h2>
+            <div class="testimonio">
+                <p>"Esta plataforma ha cambiado la forma en que preparo mis clases." - <strong>Walter Balavarca</strong></p>
+            </div>
+            <div class="testimonio">
+                <p>"Los recursos son excelentes y fáciles de usar." - <strong>Milágros Cucalón</strong></p>
+            </div>
+        </div>
+        <div class="cifras">
+            <h2>Nuestras Cifras</h2>
+            <div class="cifra">
+                <h3>10,000+</h3>
+                <p>Profesores Registrados</p>
+            </div>
+            <div class="cifra">
+                <h3>500+</h3>
+                <p>Recursos Educativos</p>
+            </div>
+            <div class="cifra">
+                <h3>1,200+</h3>
+                <p>Horas de Contenido</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Recursos para la Enseñanza -->
+    <section id="recursos">
+        <h2>Banco de Recursos Didácticos</h2>
+        <p>Filtra por nivel, asignatura o tipo de material</p>
+        <div class="filtros">
+            <label for="nivel">Nivel Educativo:</label>
+            <select id="nivel">
+                <option value="primaria">Primaria</option>
+                <option value="secundaria">Secundaria</option>
+                <option value="bachillerato">Bachillerato</option>
+            </select>
+
+            <label for="asignatura">Asignatura:</label>
+            <select id="asignatura">
+                <option value="Selección">Selección</option>
+                <option value="Matematicas">Matemáticas</option>
+                <option value="Ciencias">Ciencias</option>
+                <option value="Historia">Historia</option>
+                <option value="Inglés">Inglés</option>
+                <option value="Competencias transversales">Competencias transversales</option>
+                <option value="Arte y cultura">Arte y cultura</option>
+                <option value="Desarrollo personal, ciudadania y cívica">Desarrollo personal, ciudadanía y cívica</option>
+                <option value="Ciencias sociales">Ciencias sociales</option>
+                <option value="Comunicación">Comunicación</option>
+            </select>
+        </div>
+        <div class="recursos-lista">
+            <div class="recurso">Guía de lección</div>
+            <div class="recurso">Hoja de trabajo</div>
+            <div class="recurso">Presentación interactiva</div>
+        </div>
+    </section>
+
+    <!-- Sección Comunidad y Colaboración -->
+    <section id="comunidad">
+        <h2>Foros de Discusión</h2>
+        <p>Comparte ideas y colabora con otros profesores.</p>
+        <div class="comunidad-content">
+            <div class="foro">
+                <h3>Innovación en el Aula</h3>
+                <p>Discute nuevas metodologías y herramientas educativas.</p>
+                <a href="#" class="foro-button">Participar</a>
+            </div>
+            <div class="foro">
+                <h3>Recursos Compartidos</h3>
+                <p>Comparte y descarga recursos didácticos de otros educadores.</p>
+                <a href="#" class="foro-button">Explorar</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Desarrollo Profesional -->
+    <section id="desarrollo">
+        <h2>Cursos Online</h2>
+        <p>Accede a nuestros cursos certificados y webinars.</p>
+        <div class="cursos">
+            <div class="curso">
+                <h3>Metodologías Activas</h3>
+                <p>Aprende a implementar metodologías activas en tu enseñanza.</p>
+                <a href="#" class="curso-button">Inscribirse</a>
+            </div>
+            <div class="curso">
+                <h3>Educación Digital</h3>
+                <p>Descubre herramientas digitales para mejorar el aprendizaje.</p>
+                <a href="#" class="curso-button">Inscribirse</a>
+            </div>
+            <div class="curso">
+                <h3>Gestión de Aula</h3>
+                <p>Optimiza la gestión de tu aula con técnicas efectivas.</p>
+                <a href="#" class="curso-button">Inscribirse</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Últimos Artículos -->
+    <section id="blog">
+        <h2>Últimos Artículos</h2>
+        <div class="articulos">
+            <article class="articulo">
+                <img src="img/img1.2.png" alt="Cómo mejorar el aprendizaje en línea" />
+                <div class="contenido-articulo">
+                    <h3>Cómo mejorar el aprendizaje en línea</h3>
+                    <p>Descubre estrategias clave para potenciar el aprendizaje a distancia con herramientas digitales...</p>
+                    <span>Publicado el 10 de Octubre, 2024</span>
+                    <a href="articulo1.html" class="leer-mas">Leer más</a>
+                </div>
+            </article>
+            <article class="articulo">
+                <img src="img/img1.3.png" alt="La importancia de la gamificación en el aula" />
+                <div class="contenido-articulo">
+                    <h3>La importancia de la gamificación en el aula</h3>
+                    <p>Aprende cómo el uso de juegos y dinámicas interactivas puede aumentar la motivación y el rendimiento de los estudiantes...</p>
+                    <span>Publicado el 8 de Octubre, 2024</span>
+                    <a href="articulo2.html" class="leer-mas">Leer más</a>
+                </div>
+            </article>
+            <article class="articulo">
+                <img src="img/images.png" alt="Transformación digital en la educación" />
+                <div class="contenido-articulo">
+                    <h3>Transformación digital en la educación</h3>
+                    <p>Explora las últimas tendencias en tecnología educativa y cómo están revolucionando las aulas modernas...</p>
+                    <span>Publicado el 5 de Octubre, 2024</span>
+                    <a href="articulo3.html" class="leer-mas">Leer más</a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- Sección Contacto -->
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form>
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+            </div>
+            
+            <button type="submit" class="submit-button">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Pie de Página -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Plataforma Educativa. Todos los derechos reservados.</p>
+            <nav>
+                <ul>
+                    <li><a href="#aviso">Aviso Legal</a></li>
+                    <li><a href="#privacidad">Política de Privacidad</a></li>
+                    <li><a href="#cookies">Política de Cookies</a></li>
+                </ul>
+            </nav>
+            <div class="redes-sociales">
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
